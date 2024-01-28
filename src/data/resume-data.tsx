@@ -62,7 +62,7 @@ export const RESUME_DATA = {
       logo: null,
       start: "September 2023",
       end: "Current",
-      description: ""
+      description: "Development & maintenance of internal tools for development teams in PHP, Twig and JavaScript"
     },
     {
       company: "Clac Des Doigts",
@@ -254,6 +254,18 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/BliTz037/myteams",
+      },
+    },
+    {
+      title: "nm objdump",
+      techStack: [
+        "C"
+      ],
+      description: `Recode the nm and objdump commands in C`,
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/BliTz037/nmobjdump",
       },
     }
   ],
