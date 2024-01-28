@@ -16,6 +16,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://blitzlab.ninja",
   contact: {
     email: "tom.rives@epitech.eu",
+    tel: null,
     social: [
       {
         name: "GitHub",
