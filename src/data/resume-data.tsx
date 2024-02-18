@@ -12,7 +12,7 @@ export const RESUME_DATA = {
     "Full Stack Engineer",
   summary:
     "Fifth year student at EPITECH - European Institute of Technology",
-  avatarUrl: "",
+  avatarUrl: "https://raw.githubusercontent.com/blitz037/cv/main/public/images/avatar.jpg",
   personalWebsiteUrl: "https://blitzlab.ninja",
   contact: {
     email: "tom.rives@epitech.eu",
@@ -59,10 +59,20 @@ export const RESUME_DATA = {
       company: "Withings",
       link: "https://www.withings.com/",
       badges: ["Current"],
-      title: "Full Stack Developer",
+      title: "Backend Engineer",
+      logo: null,
+      start: "March 2024",
+      end: "Current",
+      description: ""
+    },
+    {
+      company: "Withings",
+      link: "https://www.withings.com/",
+      badges: [],
+      title: "Full Stack Developer Trainee",
       logo: null,
       start: "September 2023",
-      end: "Current",
+      end: "March 2024",
       description: "Development & maintenance of internal tools for development teams in PHP, Twig and JavaScript"
     },
     {
