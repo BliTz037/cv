@@ -12,7 +12,7 @@ export const RESUME_DATA = {
     "Full Stack Engineer",
   summary:
     "Fifth year student at EPITECH - European Institute of Technology",
-  avatarUrl: "https://raw.githubusercontent.com/blitz037/cv/main/public/images/avatar.jpg",
+  avatarUrl: "https://raw.githubusercontent.com/blitz037/cv/main/public/avatar.jpg",
   personalWebsiteUrl: "https://blitzlab.ninja",
   contact: {
     email: "tom.rives@epitech.eu",
