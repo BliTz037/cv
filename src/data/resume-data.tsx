@@ -1,21 +1,23 @@
+import { CabFormationLogo } from "@/images/logos";
 import {
-  CabFormationLogo,
-} from "@/images/logos";
-import { DevToIcon, GitHubIcon, LinkedInIcon, MediumIcon } from "@/components/icons";
+  DevToIcon,
+  GitHubIcon,
+  LinkedInIcon,
+  MediumIcon,
+} from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Tom Rives",
   initials: "TR",
   location: "Paris, France, CET",
   locationLink: "https://www.google.com/maps/place/paris",
-  about:
-    "Full Stack Engineer",
-  summary:
-    "Fifth year student at EPITECH - European Institute of Technology",
-  avatarUrl: "https://raw.githubusercontent.com/blitz037/cv/main/public/avatar.jpg",
-  personalWebsiteUrl: "https://blitzlab.ninja",
+  about: "Backend Engineer at Withings.",
+  summary: "Backend Engineer at Withings, old Epitech student promotion 2024.",
+  avatarUrl:
+    "https://raw.githubusercontent.com/blitz037/cv/main/public/avatar.jpg",
+  personalWebsiteUrl: "https://tomrives.me",
   contact: {
-    email: "tom.rives@epitech.eu",
+    email: "contact@tomrives.me",
     tel: null,
     social: [
       {
@@ -37,7 +39,7 @@ export const RESUME_DATA = {
         name: "Dev.to",
         url: "https://dev.to/blishikata",
         icon: DevToIcon,
-      }
+      },
     ],
   },
   education: [
@@ -63,7 +65,7 @@ export const RESUME_DATA = {
       logo: null,
       start: "March 2024",
       end: "Current",
-      description: ""
+      description: "",
     },
     {
       company: "Withings",
@@ -73,7 +75,8 @@ export const RESUME_DATA = {
       logo: null,
       start: "September 2023",
       end: "March 2024",
-      description: "Development & maintenance of internal tools for development teams in PHP, Twig and JavaScript"
+      description:
+        "Development & maintenance of internal tools for development teams in PHP, Twig and JavaScript",
     },
     {
       company: "Clac Des Doigts",
@@ -105,7 +108,8 @@ export const RESUME_DATA = {
       logo: CabFormationLogo,
       start: "July 2020",
       end: "December 2020",
-      description: "Automation and reorganization of the company's CRM. Development of a chatbot with Dialogflow and Node.js hosted on Google Cloud Platform.",
+      description:
+        "Automation and reorganization of the company's CRM. Development of a chatbot with Dialogflow and Node.js hosted on Google Cloud Platform.",
     },
   ],
   skills: [
@@ -114,6 +118,7 @@ export const RESUME_DATA = {
     "C#",
     "Python",
     "HTML/CSS",
+    "PHP",
     "JavaScript",
     "TypeScript",
     "Flutter",
@@ -160,7 +165,8 @@ export const RESUME_DATA = {
         "ExpressJS",
         "PostgreSQL",
       ],
-      description: "A Lametric-App which shows the number of players connected on a server Minecraft / Source (Gmod, CS, CSGO) / FiveM",
+      description:
+        "A Lametric-App which shows the number of players connected on a server Minecraft / Source (Gmod, CS, CSGO) / FiveM",
       logo: null,
       link: {
         label: "apps.lametric.com",
@@ -186,11 +192,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Whac a Mole VR",
-      techStack: [
-        "C#",
-        "Unity",
-        "SteamVR",
-      ],
+      techStack: ["C#", "Unity", "SteamVR"],
       description: `Arcade-style VR game in which the objective is to hit moles with a hammer when they pop out of holes.`,
       logo: null,
       link: {
@@ -200,10 +202,7 @@ export const RESUME_DATA = {
     },
     {
       title: "SkulkerSurvivor",
-      techStack: [
-        "C#",
-        "Unity",
-      ],
+      techStack: ["C#", "Unity"],
       description: `Basic 3D game survivor`,
       logo: null,
       link: {
@@ -213,12 +212,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Redditech",
-      techStack: [
-        "Dart",
-        "Flutter",
-        "Android",
-        "Reddit API"
-      ],
+      techStack: ["Dart", "Flutter", "Android", "Reddit API"],
       description: `A Reddit client for iOS and Android. That is an Epitech project school.`,
       logo: null,
       link: {
@@ -233,7 +227,7 @@ export const RESUME_DATA = {
         "React.js",
         "TailwindCSS",
         "Vite.js",
-        "OpenWeatherMap API"
+        "OpenWeatherMap API",
       ],
       description: `Weather forecast website made with react`,
       logo: null,
@@ -244,10 +238,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Sokoban",
-      techStack: [
-        "C",
-        "Ncurses"
-      ],
+      techStack: ["C", "Ncurses"],
       description: `Sokoban game made with C and Ncurses`,
       logo: null,
       link: {
@@ -257,9 +248,7 @@ export const RESUME_DATA = {
     },
     {
       title: "my_teams",
-      techStack: [
-        "C"
-      ],
+      techStack: ["C"],
       description: `A client-server application allowing users to create teams, add users to them and send messages between them in CLI`,
       logo: null,
       link: {
@@ -269,15 +258,13 @@ export const RESUME_DATA = {
     },
     {
       title: "nm objdump",
-      techStack: [
-        "C"
-      ],
+      techStack: ["C"],
       description: `Recode the nm and objdump commands in C`,
       logo: null,
       link: {
         label: "github.com",
         href: "https://github.com/BliTz037/nmobjdump",
       },
-    }
+    },
   ],
 } as const;
